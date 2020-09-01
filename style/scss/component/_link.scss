@@ -1,0 +1,13 @@
+.link {
+    color: unset;
+    text-decoration: none;
+
+    .icon {
+        margin-right: 8px;
+    }
+}
+
+.navbar .link:hover {
+    animation-name: shine;
+    animation-duration: 1s;;
+}

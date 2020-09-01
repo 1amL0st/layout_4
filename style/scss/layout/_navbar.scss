@@ -1,0 +1,26 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    opacity: 0.0;
+    height: 50px;
+    color: $light-gray;
+    background-color: black;
+
+    .nav {
+        max-width: 720px;
+    }
+
+    .logo {
+        max-width: 108px;
+    }
+
+    &.fade-away {
+        animation-name: fade-away;
+        animation-duration: 500ms;
+    }
+
+    &.fade-in {
+        animation-name: fade-in;
+        animation-duration: 500ms;
+    }
+}

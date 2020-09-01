@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
+@import "../../assets/fonts/font_awesome/css/all.css";
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  height: 1920px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row, .row-jc-sb {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.row-jc-sb {
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes shine {
+  from {
+    color: #9d9d9d;
+  }
+  to {
+    color: white;
+  }
+}
+@keyframes fade-away {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.1;
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 0.9;
+  }
+}
+.link {
+  color: unset;
+  text-decoration: none;
+}
+.link .icon {
+  margin-right: 8px;
+}
+
+.navbar .link:hover {
+  animation-name: shine;
+  animation-duration: 1s;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.logo h1 {
+  font-size: inherit;
+  font-weight: normal;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  opacity: 0;
+  height: 50px;
+  color: #9d9d9d;
+  background-color: black;
+}
+.navbar .nav {
+  max-width: 720px;
+}
+.navbar .logo {
+  max-width: 108px;
+}
+.navbar.fade-away {
+  animation-name: fade-away;
+  animation-duration: 500ms;
+}
+.navbar.fade-in {
+  animation-name: fade-in;
+  animation-duration: 500ms;
+}
+
+/*# sourceMappingURL=style.css.map */
