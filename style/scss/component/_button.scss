@@ -1,0 +1,20 @@
+.btn {
+
+}
+
+.btn-follow {
+    @extend .btn;
+    box-sizing: border-box;
+    padding: 0.2em 0.3em;
+    border: solid 1px lightgray;
+    
+    .h3 {
+        font-size: 14px;
+    }
+
+    .icon {
+        margin-right: 8px;
+        max-width: 1em;
+        max-height: 1em;
+    }
+}

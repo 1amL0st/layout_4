@@ -13,10 +13,12 @@ body {
 }
 
 .section {
+    box-sizing: border-box;
     width: 100%;
 }
 
 .container {
+    box-sizing: border-box;
     width: 100%;
     max-width: 1170px;
     margin: auto;

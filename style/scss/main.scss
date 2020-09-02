@@ -3,8 +3,11 @@
         './base/animations';
 
 @import './component/link',
-        './component/logo';
+        './component/logo',
+        './component/button',
+        './component/my_toolset';
 
 @import './layout/header',
         './layout/navbar',
-        './layout/clients';
+        './layout/clients',
+        './layout/about';
