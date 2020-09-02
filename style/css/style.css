@@ -114,6 +114,35 @@ body {
   max-height: 30px;
 }
 
+.a-header .icon {
+  font-size: 42px;
+}
+.a-header .h2 {
+  font-size: 28px;
+  font-weight: 300;
+  margin: 32px 0;
+}
+.a-header .line {
+  width: 100%;
+  max-width: 128px;
+  height: 4px;
+  background-color: orange;
+}
+
+.service {
+  max-width: 400px;
+}
+.service .h3 {
+  font-weight: 400;
+  margin: 16px auto;
+  font-size: 24px;
+}
+.service .p {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+}
+
 .header {
   color: white;
   text-align: center;
@@ -131,7 +160,7 @@ body {
   font-size: 42px;
 }
 .header .p {
-  margin-top: 16px;
+  margin: 16px auto 32px auto;
   font-size: 18px;
   max-width: 70%;
 }
@@ -222,15 +251,15 @@ body {
   max-width: 470px;
 }
 .about .img {
+  width: 100%;
   max-width: 440px;
 }
-.about .h2, .about .h3 {
-  font-weight: 500;
-}
 .about .h2 {
+  font-weight: 500;
   font-size: 42px;
 }
 .about .h3 {
+  font-style: italic;
   margin: 8px 0;
   font-size: 20px;
 }
@@ -251,6 +280,35 @@ body {
   .about .img {
     margin-bottom: 32px;
   }
+  .about .text {
+    text-align: center;
+  }
+  .about .my-toolset {
+    margin: 0 auto;
+  }
+}
+.services {
+  margin-top: 64px;
+}
+@media screen and (max-width: 720px) {
+  .services {
+    margin-top: 128px;
+  }
+}
+.services .grid {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  column-gap: 32px;
+  row-gap: 64px;
+  justify-content: space-between;
+}
+@media screen and (max-width: 720px) {
+  .services .grid {
+    grid-template-columns: repeat(1, max-content);
+  }
+}
+.services .a-header {
+  margin-bottom: 64px;
 }
 
 /*# sourceMappingURL=style.css.map */

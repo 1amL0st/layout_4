@@ -5,9 +5,12 @@
 @import './component/link',
         './component/logo',
         './component/button',
-        './component/my_toolset';
+        './component/my_toolset',
+        './component/a_header',
+        './component/service';
 
 @import './layout/header',
         './layout/navbar',
         './layout/clients',
-        './layout/about';
+        './layout/about',
+        './layout/services';
