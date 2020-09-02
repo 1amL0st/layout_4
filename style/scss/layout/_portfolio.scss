@@ -17,8 +17,10 @@
             margin-right: 16px;
         }
     }
+}
 
-    @media screen and(max-width: $portfolio-screen-min-width) {
+@media screen and(max-width: $portfolio-screen-min-width) {
+    .portfolio {
         .link {
             margin: 64px 0;
         }
