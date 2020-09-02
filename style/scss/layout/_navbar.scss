@@ -8,10 +8,25 @@
 
     .nav {
         max-width: 720px;
+
+        @media only screen and (max-width: 675px) {
+            background-color: black;
+            flex-direction: column;
+            justify-content: flex-start;
+            position: fixed;
+            top: 50px;
+            height: 100vh;
+            visibility: hidden;
+
+            .link {
+                margin-bottom: 24px;
+            }
+        }
     }
 
     .logo {
         max-width: 108px;
+        margin: 0 16px;
     }
 
     &.fade-away {
@@ -23,4 +38,34 @@
         animation-name: fade-in;
         animation-duration: 500ms;
     }
+
+    .btn {
+        position: fixed;
+        right: 16px;
+        visibility: hidden;
+        font-size: 24px;
+
+        @media only screen and (max-width: 675px) {
+            visibility: visible;
+        }
+    }
 }
+
+// @media only screen and (max-width: 650px) {
+//     .navbar {
+//         .nav {
+//             background-color: black;
+//             flex-direction: column;
+//             justify-content: flex-start;
+//             position: fixed;
+//             top: 50px;
+//             height: 100vh;
+
+//             .link {
+//                 margin-top: 16px;
+//             }
+//         }
+//     }
+
+
+// }
