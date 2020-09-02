@@ -1,0 +1,20 @@
+@import './base/base',
+        './base/variables',
+        './base/animations';
+
+@import './component/link',
+        './component/logo',
+        './component/button',
+        './component/my_toolset',
+        './component/a_header',
+        './component/service',
+        './component/testimonial';
+
+@import './layout/header',
+        './layout/navbar',
+        './layout/clients',
+        './layout/about',
+        './layout/services',
+        './layout/portfolio',
+        './layout/testimonials',
+        './layout/footer';

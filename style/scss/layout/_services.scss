@@ -1,0 +1,27 @@
+.services {
+    padding: 0 8px;
+    margin-top: 64px;
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        column-gap: 32px;
+        row-gap: 64px;
+        justify-content: space-between;
+    }
+
+    .a-header {
+        margin-bottom: 64px;
+    }
+
+}
+
+@media screen and (max-width: $services-min-screen-width) {
+    .services {
+        margin-top: 128px;
+
+        .grid {
+            grid-template-columns: repeat(1, 256px);
+        }
+    }
+}

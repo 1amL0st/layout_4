@@ -1,0 +1,24 @@
+@keyframes shine {
+    from {
+        color: #9d9d9d;
+    } to {
+        color: white;
+    }
+}
+
+@keyframes fade-away  {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.1;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0.1;
+    } to {
+        opacity: 0.9;
+    }
+}

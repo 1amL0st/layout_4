@@ -1,0 +1,14 @@
+.my-toolset {
+    align-items: flex-start;
+    width: 100%;
+    max-width: 156px;
+
+    .list {   
+        list-style: none;
+    }
+
+    .icon {
+        max-width: 30px;
+        max-height: 30px;
+    }
+}

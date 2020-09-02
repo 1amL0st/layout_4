@@ -1,0 +1,29 @@
+.testimonial {
+    max-width: 485px;
+    color: $text-gray;
+
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+
+    align-items: flex-start;
+ 
+    .avatar {
+        border-radius: 50%;
+        margin-right: 16px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .p {
+        font-style: italic;
+    }
+
+    .text {
+        align-items: flex-start;
+    }
+
+    .name {
+        margin: 16px auto 8px 0;
+    }
+}
